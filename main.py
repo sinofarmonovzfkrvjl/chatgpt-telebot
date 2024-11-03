@@ -18,5 +18,5 @@ def chatgpt(message: types.Message):
     bot.send_message(message.chat.id, response.json()['message'])
 
 
-print(f"[@{bot.get_me().username}] - {bot.get_me().full_name}")
-bot.infinity_polling(skip_pending=True)
+# print(f"[@{bot.get_me().username}] - {bot.get_me().full_name}")
+# bot.infinity_polling(skip_pending=True)
